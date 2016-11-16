@@ -9,15 +9,30 @@
 #navbar ul li {
 	display: inline;
 	text-align: center;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background-color: #E85A31;
+    border-right: 1px solid #000000;
+    text-decoration: none;
+    font-weight: bold;
+	letter-spacing: 1px;
+	border-left: 1px solid #000000;
+	
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: black;
+
 }
 
 header {
-	background-color:#C70039;
 	text-align:center;
 	font-size: 30px;
-}
+}	
 
 .heading {
 	background-color:#E85A31;
 	font-size: 30px;
 }
+
