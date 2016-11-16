@@ -5,3 +5,7 @@
 .unorderedlist {
 	list-style-type: square;
 }
+
+.nav {
+	text-align: center;
+}
