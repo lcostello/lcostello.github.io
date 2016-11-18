@@ -1,48 +1,4 @@
 
 
-.unorderedlist {
-	list-style-type: none;
-}
-
-#navbar ul li {
-	display: inline;
-	text-align: center;
-	border-top:1px solid #000000;
-	border-bottom:1px solid #000000;
-	background-color: #E85A31;
-    border-right: 1px solid #000000;
-    text-decoration: none;
-    font-weight: bold;
-	letter-spacing: 1px;
-	border-left: 1px solid #000000;
-	
-}
-
-
-#navbar ul li a {
-	text-decoration: none;
-	color: black;
-
-}
-
-header {
-	text-align:center;
-	font-size: 30px;
-}	
-
- #section1 {color: #111; 
- 	font-family: 'Open Sans Condensed', sans-serif; 
-    font-size: 30px; 
-    font-weight: 700; 
-    line-height: 64px; 
-    margin: 0 0 0; 
-    padding: 20px 30px; 
-    text-align: center; 
- 	text-transform: uppercase; 
-}
-.heading {
-	background-color:#E85A31;
-	font-size: 30px;
-}
 
 
