@@ -1,4 +1,90 @@
 
 
+#nav ul li {
+	display: inline-block;
+	list-style: none;
+}
 
+a {
+	text-decoration: none;
+}
+
+.navlist {
+	text-align: center;
+}
+
+#home {
+	background-color: #dbbe9c;
+	width: 100%;
+	position: relative;
+	border: 5px solid grey;
+	height: 30%;
+}
+
+#Lauren {
+ 	position: relative;
+ 	left:43%;
+ }
+
+#aboutme {
+	background-color: #E85a31;
+	width: 100%;
+	position: relative;
+	border: 5px solid grey;
+	height: 45%;
+}
+ h1 {
+ 	text-align: center;
+ 	color: #E85a31;
+ 	font-size: 300%;
+ }
+
+ .Maintitle {
+ 	text-align: center;
+ 	color: #E85a31;
+ 	font-size: 200%;
+ }
+
+#cvbutton {
+	position: relative;
+	left:48%;
+}
+
+.skill-bar {
+    background: #C4C4C4;
+    display: table;
+    height: 4px;
+    width: 47%;
+    margin: 10px -2px 20px -2px;
+    position: relative;
+    left: 30%;
+}
+
+.skill-bar .skill-rate-on {
+    background: #353535;
+}
+
+.skill-rate-on, .skill-rate-off {
+    display: table-cell;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+h5 {
+	position: relative;
+	left: 25%;
+}
+
+#contact {
+	background-color:#dbbe9c;
+}
+
+form {
+	position: relative;
+	left:43%;
+}
+
+h2 {
+	text-align: center;
+}
 
