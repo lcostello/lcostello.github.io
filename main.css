@@ -60,6 +60,7 @@ body {
 	color: #E9CFEC;
 	font-size: 20px;
 	padding-top: 10px;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -89,4 +90,9 @@ body {
 .navbar-brand h1 {
 	padding-bottom: 40px;
 	font-style: bold;
+}
+
+
+h2 {
+	font-family: 'Raleway', sans-serif;
 }
