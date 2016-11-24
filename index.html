@@ -2,136 +2,51 @@
 <html>
   
   <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--- Carousel boostrap link -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <!-- Our modified CSS will go below. -->
+    <link href="main.css" rel="stylesheet" type="text/css">
     <title> Lauren's CV </title>
-  </head>  <!--beginning of nav bar-->
-<body>
-  <header>
-    <nav>
-    <ul>
-      <li><a href="default.asp">Home</a></li>
-      <li><a href="aboutme.asp">About Me</a></li>
-      <li><a href="skills.asp">Skills</a></li>
-      <li><a href="Projects.asp">Projects</a></li>
-      <li><a id="Getintouch" href="Getintouch.asp">Get in touch with Lauren Costello</a></li>
-    </ul>
-   </nav>
-   </header>
-    <!--end of nav bar -->
-
-    <!--beginning of home-->
-    <section id="home">
-      <h1>Lauren Costello</h1>
-      <p> Web Developer Consultant</p>
-      <img id="Lauren" src="Lauren-Costello.jpg" alt="Lauren" >
-    </section> 
-    <!--end of home-->
-
-    <!--beginning of about me section-->
-     <section id="aboutme">
-      <h2> About me </h2>
-      <p> Lauren is a confident and capable member of the Sparta Academy. She is an experienced primary teacher who possess a number of transferable skills, such as excellent organisation and planning, managing time in order to meet deadlines and excellent communication skills. She has shown a clear desire to learn through her determination when self-studying HTML and CSS. </p>
-      <button id="cvbutton" type="button">View CV</button>
-    </section> 
-    <!--end of about me section-->
-    <!--beginning of skills and projects section-->
-    <!--beginning of skills div -->
-   <section id="skillsandprojects">
-    <div id="skills">
-      <h2>Skills</h2>
-      <h5>HTML/CSS</h5>
-      <div class="skill-bar">
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-      </div>
-
-      <h5>Version control, APIs</h5>
-      <div class="skill-bar">
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-      </div>
-
-      <h5>Web Design and Information Architecture</h5>
-      <div class="skill-bar">
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-      </div>
-
-      <h5>Practical Agile</h5>
-      <div class="skill-bar">
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-      </div>
-
-      <h5>JavaScript </h5>
-      <div class="skill-bar">
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-      </div>
-
-      <h5>Node.js/React.js</h5>
-      <div class="skill-bar">
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-      </div>
-
-      <h5>Practical Testing </h5>
-      <div class="skill-bar">
-         <div class="skill-rate-on"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-         <div class="skill-rate-off"></div>
-      </div>
-    </div>
-
-     <div id="projects">
-      <h2> Projects</h2>
-      <img class ="pimg" src="Weconverge.png" alt="Lauren" >
-      <img class ="pimg" src="Project2.jpg" alt="Project2" >
-      <img class ="pimg" src="Project3.jpg" alt="Project3" >
-     </div>
-    </section> 
   
 
-    <!--beginning of contact section
-  </section id="contact">
-      <h2>Get in touch!</h2>
-      <form method="post" action= "http://lacedeamon.spartaglobal.com/contactform">
-       <label for ="name">Name</label>
-       <input type="text" name="name" id="name">
-       <br>
-       <label for="email">Email </label>
-       <input type="email" name="email" id="email">
-       <br>
-       <input type="hidden" name="addressee">
-       <br>
-       <label for="message"> Message </label>
-       <input type="text" name="message" id="message"> 
-       <br>
-       <input type="submit" value="save">
-      </form>
-    </section> 
-    <!--end of contact section-->
+  </head>  <!--beginning of nav bar-->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+...
+  <ul class="nav navbar-nav">
+    <li><a href ="#LaurenCostello"><span class="highlight">Lauren Costello</span></a></li>
+    <li><a href="#aboutme">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#Projects">Projects</a></li>
+    <li><a href="#Getintouch">Get in touch!</a></li>
+  </ul>
+  
+</nav>
+
+<!-- Section 1 -->
+<div id="aboutme">
+  <h1>About me</h1>
+  <p> </p>
+</div>
+
+<div id="skills">
+  <h2> Skills </h2>
+  <p> </p>
+</div>
+
+ 
+
 
     <!--beginning of footer-->
-   <footer id="footer">
-      <img class= "icon" src="GitHub.png"  alt="Github">
-      <img class="icon" src="Twitter.png" alt="Twitter">
-      <img class="icon" src="LinkedIn.png" alt="LinkedIn">     
-      <img class="icon" src="Medium.png" alt="Medium">
-    </footer> -->
+   <footer>
+     
+    </footer> 
     <!--end of footer-->
     </body>
 </html>
