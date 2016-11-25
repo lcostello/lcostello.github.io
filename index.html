@@ -6,28 +6,24 @@
        <!--Import Google Icon Font-->
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
         <!-- Import my custom index stylesheet -->
         <link rel="stylesheet" type="text/css" href="main.css">
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <!--<script type="text/javascript" src="js/materialize.min.js"></script>-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
         <script src="index.js"></script>
        <!--google font-->
       <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-      <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"></script>
-      <script src="index.js"></script>
+
       <title> Lauren's CV </title>
 
 </head>  <!--beginning of nav bar-->
   <body> 
       <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
-      <header>
+<!--       <header>
         <nav class="navbar navbar-default navbar-fixed-top">
           <ul class="nav navbar-nav">
             <li><a href ="#home"><span class="highlight">Lauren Costello</span></a></li>
@@ -37,26 +33,47 @@
             <li><a href="#Getintouch">Get in touch!</a></li>
           </ul>
         </nav>
-      </header>
+      </header> -->
 
-      <!-- Section 1 -->
+        <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Lauren Costello</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">About Me</a></li>
+        <li><a href="badges.html">Skills</a></li>
+        <li><a href="collapsible.html">Projects</a></li>
+        <li><a href="mobile.html">Get in touch!</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">About Me</a></li>
+        <li><a href="badges.html">Skills</a></li>
+        <li><a href="collapsible.html">Projects</a></li>
+        <li><a href="mobile.html">Get in touch!</a></li>
+      </ul>
+    </div>
+  </nav>
+         
+
+      <!--start of banner-->
       <section id="home" class="home">
         <h1> <pre><code><xmp><html>Web Developer</html></xmp></code></pre></h1>
-        <!--  <img id="Lauren" src="Lauren-Costello.jpg" alt="Lauren" >-->
+      </div>
+    <!-- <img id="Lauren" src="Lauren-Costello.jpg" alt="Lauren" > -->
       </section> 
-      <!--end of home-->
+      <!--end of bannner-->
+      
 
-      <!-- Section 2 -->
+      <!-- start of Section 1 -->
+    <section class="container">
       <div class="row">
-      <div id="aboutme" class="col-md-12">
+      <div class ="col l6 m12 s12 padRight" id="aboutme">
         <h2>About me</h2>
         <p> Lauren is a confident and capable member of the Sparta Academy. She is an experienced primary teacher who possess a number of transferable skills, such as excellent organisation and planning, managing time in order to meet deadlines and excellent communication skills. She has shown a clear desire to learn through her determination when self-studying HTML and CSS.</p>
         <button id="cvbutton" type="button">View CV</button>
       </div>
-      </div>
 
-      <!--Section 3 -->
-      <div id="skills">
+      <div class= "col l6 m12 s12 padLeft" id="skills">
         <h2> Skills </h2>
         <h5>HTML/CSS</h5>
         <div class="skill-bar">
@@ -112,25 +129,64 @@
    <div class="skill-rate-off"></div>
    <div class="skill-rate-off"></div>
    <div class="skill-rate-off"></div>
- </div>
+ </div> 
 </div>
 </div>
-
+</section> <!--end of section 1-->
 
 
 <!--Section 4-->
-<div id="Projects">
+<!-- <div class="row">
+<div id="Projects" class="col s12"> -->
   <h2> Projects </h2>
-  <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="Weconverge.png"></a>
+    <a class="carousel-item" href="#two!"><img src="Project2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="project3.jpg"></a>
+  </div>
+ </div>
 </div>
 
 
 <!--Section 5-->
-<div id="Getintouch">
+<!-- <div id="Getintouch">
   <h2> Get in touch! </h2>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
-</div>
+  
+</div> -->
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Name" id="first_name" type="text" class="validate">
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
 
+      <!--add text box here-->
+
+
+
+
+
+
+
+
+
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field inline">
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="wrong" data-success="right">Your Email Address</label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
 
 
 
