@@ -1,75 +1,148 @@
+
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--- Carousel boostrap link -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="carousel.css" rel="stylesheet">
-    <!-- Our modified CSS will go below. -->
-    <link href="main.css" rel="stylesheet" type="text/css">
-    <!--google font-->
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <title> Lauren's CV </title>
-  
 
-  </head>  <!--beginning of nav bar-->
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<head>
+       <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <!-- Import my custom index stylesheet -->
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <!--<script type="text/javascript" src="js/materialize.min.js"></script>-->
+        <script src="index.js"></script>
+       <!--google font-->
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+      <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+      <script src="index.js"></script>
+      <title> Lauren's CV </title>
 
-<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-...
-  <ul class="nav navbar-nav">
-    <li><a href ="#LaurenCostello"><span class="highlight">Lauren Costello</span></a></li>
-    <li><a href="#aboutme">About Me</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#Projects">Projects</a></li>
-    <li><a href="#Getintouch">Get in touch!</a></li>
-  </ul>
-  
-</nav>
+</head>  <!--beginning of nav bar-->
+  <body> 
+      <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+      <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <ul class="nav navbar-nav">
+            <li><a href ="#home"><span class="highlight">Lauren Costello</span></a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Getintouch">Get in touch!</a></li>
+          </ul>
+        </nav>
+      </header>
 
-<!-- Section 1 -->
-<div id="LaurenCostello">
-  <p> </p>
+      <!-- Section 1 -->
+      <section id="home" class="home">
+        <h1> <pre><code><xmp><html>Web Developer</html></xmp></code></pre></h1>
+        <!--  <img id="Lauren" src="Lauren-Costello.jpg" alt="Lauren" >-->
+      </section> 
+      <!--end of home-->
+
+      <!-- Section 2 -->
+      <div class="row">
+      <div id="aboutme" class="col-md-12">
+        <h2>About me</h2>
+        <p> Lauren is a confident and capable member of the Sparta Academy. She is an experienced primary teacher who possess a number of transferable skills, such as excellent organisation and planning, managing time in order to meet deadlines and excellent communication skills. She has shown a clear desire to learn through her determination when self-studying HTML and CSS.</p>
+        <button id="cvbutton" type="button">View CV</button>
+      </div>
+      </div>
+
+      <!--Section 3 -->
+      <div id="skills">
+        <h2> Skills </h2>
+        <h5>HTML/CSS</h5>
+        <div class="skill-bar">
+         <div class="skill-rate-on"></div>
+         <div class="skill-rate-on"></div>
+         <div class="skill-rate-off"></div>
+         <div class="skill-rate-off"></div>
+       </div>
+
+ <h5>Version control, APIs</h5>
+ <div class="skill-bar">
+   <div class="skill-rate-on"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+ </div>
+
+ <h5>Web Design and Information Architecture</h5>
+ <div class="skill-bar">
+   <div class="skill-rate-on"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+ </div>
+
+ <h5>Practical Agile</h5>
+ <div class="skill-bar">
+   <div class="skill-rate-on"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+ </div>
+
+ <h5>JavaScript </h5>
+ <div class="skill-bar">
+   <div class="skill-rate-on"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+ </div>
+
+ <h5>Node.js/React.js</h5>
+ <div class="skill-bar">
+   <div class="skill-rate-on"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+ </div>
+
+ <h5>Practical Testing </h5>
+ <div class="skill-bar">
+   <div class="skill-rate-on"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+   <div class="skill-rate-off"></div>
+ </div>
+</div>
 </div>
 
-<!-- Section 2 -->
-<div id="aboutme">
-  <h2>About me</h2>
-  <p> </p>
-</div>
 
-
-<!--Section 3 -->
-<div id="skills">
-  <h2> Skills </h2>
-  <p> </p>
-</div>
 
 <!--Section 4-->
 <div id="Projects">
   <h2> Projects </h2>
-  <p> </p>
+  <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 </div>
+
 
 <!--Section 5-->
 <div id="Getintouch">
   <h2> Get in touch! </h2>
-  <p> </p>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
 </div>
 
 
 
- 
 
 
-    <!--beginning of footer-->
-   <footer>
-     
-    </footer> 
-    <!--end of footer-->
-    </body>
-</html>
+
+<!--beginning of footer-->
+<footer>
+      <img class= "icon" src="GitHub.png"  alt="Github">
+      <img class="icon" src="Twitter.png" alt="Twitter">
+      <img class="icon" src="LinkedIn.png" alt="LinkedIn">     
+      <img class="icon" src="Medium.png" alt="Medium">
+</footer> 
+<!--end of footer-->
+  </body>
+</html> -->

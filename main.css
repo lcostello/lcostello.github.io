@@ -1,12 +1,48 @@
-body { 
-	padding-top: 20px; 
-	padding-bottom: 20px;
+
+* {
+	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
 
-/* Navbar custom CSS for a transparent, fixed navbar */
 
+}
+body { 
+	overflow: hidden;
+	width: 100%;
+	font-family:'Raleway', sans-serif;
+	position: relative;
+}
 
+ul {
+	z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+} 
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+} 
 
 .nav {
 	list-style: none;
@@ -21,17 +57,8 @@ body {
     width:100%;
     margin: 0;
 }
-.navbar-nav > li {
-    float:none;
-    display:table-cell;
-    text-align:center;
-}
-
-/*item {
-	background-size: cover;*/
 
 .navbar {
-	background-color: white;
 	border: none;
 	display: inline-block
 	margin: 0 auto;
@@ -50,36 +77,39 @@ body {
 	color: #E9CFEC;
 }
 
-
-
-.nav a {
+.navbar-collapse { padding: 0; } /* forces the nav to take full container with */
+.navbar-nav > li > a { 
 	display:block;
 	text-align:center;
 	width: 100%;
 	text-decoration:none; 
 	color: #E9CFEC;
-	font-size: 20px;
-	padding-top: 10px;
-	font-family: 'Raleway', sans-serif;
-}
-
-
-.navbar-header a {
-	color: #E9CFEC;
-	font-style: bold;
 	font-size: 28px;
-	padding-bottom: 10px;
 	padding-top: 10px;
-}*/
+	padding-bottom: 10px;
+	font-style: bold;
+}
+.navbar-nav > li:first-child { 
+	text-align: left; 
+} /* alligns first element to the left border */
 
+.navbar-nav > li:last-child { 
+	text-align: right; 
+} /* similar for right border */
 
-.navbar-collapse { padding: 0; } /* forces the nav to take full container with */
-.navbar-nav > li > a { text-transform: uppercase; }
-.navbar-nav > li:first-child { text-align: left; } /* alligns first element to the left border */
-.navbar-nav > li:last-child { text-align: right; } /* similar for right border */
-.navbar-nav > li:first-child > a, .navbar-nav > li:last-child > a { padding: 0; }
-.navbar-nav { display: table; width: 100%; margin: 0; }
-.navbar-nav > li { display: table-cell; text-align: center; float: none; }
+.navbar-nav > li:first-child > a, .navbar-nav > li:last-child > a { 
+	padding: 0; 
+}
+.navbar-nav { 
+	display: table;
+	 width: 100%; 
+	 margin: 0; 
+}
+.navbar-nav > li { 
+	display: table-cell; 
+	text-align: center; 
+	float: none;
+}
 
 
 .highlight {
@@ -93,6 +123,84 @@ body {
 }
 
 
+.home {
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	height: 30%;
+	background-color:#EBDDE2;
+	text-align: center;
+}
+
+.home h1 {
+	color: #737CA1;
+	font-size:350%;
+	top: 40%;
+	position: relative;
+}
+
+pre code xmp {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+
+#aboutme {
+	width: 100%;
+padding: 10%;
+text-align:center;
+background-color: white;
+
+
+}
+
 h2 {
 	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.skill-bar {
+    background: #C4C4C4;
+    display: table;
+    height: 4px;
+    width: 32%;
+    margin: 10px -2px 20px -2px;
+    position: relative;
+    left: 30%;
+}
+
+.skill-bar .skill-rate-on {
+    background: #353535;
+}
+
+.skill-rate-on, .skill-rate-off {
+    display: table-cell;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+
+h5 {
+position: relative;
+left: 25%;
+}
+
+footer {
+text-align: center;
+}
+
+/* new bootstrap code */
+.icon {
+padding: 25px auto;
+border: 3px;
+margin: 25px 25px 25px 25px;
+}
+
+*/
+.skill-bar #Projects {
+	display: inline-block;
+}
+
+
