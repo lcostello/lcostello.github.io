@@ -24,7 +24,7 @@ nav ul a {
 }
 
 .brand-logo {
-	color: #E9CFEC !important;
+	color: #737CA1 !important;
 	padding-left: 1% !important;
 }
 
@@ -40,7 +40,12 @@ nav ul a {
 	padding-right: 4% !important;
 }
 
-/*ul {
+
+.waves-effect {
+	background-color: #737CA1 ;
+}
+
+ /*{
 	z-index: 1;
     position: fixed;
     top: 0;
@@ -69,7 +74,7 @@ nav ul a {
 } 
 */
 nav {
-	position: relative;
+	position:relative;
 }
 
 /*.nav {
@@ -189,7 +194,7 @@ p {
 }
 
 .skill-bar {
-    background: #C4C4C4;
+    background: #EBDDE2;
     display: table;
     height: 4px;
     width: 32%;
@@ -199,13 +204,13 @@ p {
 }
 
 .skill-bar .skill-rate-on {
-    background: #353535;
+    background: #737CA1;
 }
 
 .skill-rate-on, .skill-rate-off {
     display: table-cell;
-    border-left: 2px solid #FFF;
-    border-right: 2px solid #FFF;
+    border-left: 2px solid #EBDDE2;
+    border-right: 2px solid #EBDDE2;
 }
 
 
@@ -216,6 +221,7 @@ left: 25%;
 
 footer {
 text-align: center;
+background-color: #EBDDE2 ;
 }
 
 .icon {
