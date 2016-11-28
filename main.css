@@ -21,6 +21,7 @@ nav {
 
 nav ul a {
 	color: #E9CFEC;
+	font-size: 22px;
 }
 
 .brand-logo {
@@ -187,6 +188,7 @@ background-color: white;
 h2 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+	color: #737CA1
 }
 
 p {
