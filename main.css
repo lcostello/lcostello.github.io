@@ -1,19 +1,16 @@
-/*
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
-}*/
-
-
 }
+
 body { 
-	overflow: hidden;
 	width: 100%;
-	font-family:'Raleway', sans-serif;
 	position: relative;
 }
+
 
 nav {
 	background-color: #ffffff;
@@ -46,116 +43,14 @@ nav ul a {
 	background-color: #737CA1 ;
 }
 
- /*{
-	z-index: 1;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-}*/
-
-/*.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-} */
-
-/*navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-} 
-*/
 nav {
 	position:relative;
 }
-
-/*.nav {
-	list-style: none;
-	padding: 1em 0;
-	color: #E9CFEC;
-	border: none;
-	position: relative;
-}
-*/
-/*
-.navbar-nav {
-    display:table;
-    width:100%;
-    margin: 0;
-}
-
-.navbar {
-	border: none;
-	display: inline-block
-	margin: 0 auto;
-	background-size: cover;
-
-}
-
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #E9CFEC;
-}
-
-
-.navbar-inverse {
-	background: white;
-	color: #E9CFEC;
-}
-*/
-/*.navbar-collapse { padding: 0; } *//* forces the nav to take full container with */
-/*.navbar-nav > li > a { 
-	display:block;
-	text-align:center;
-	width: 100%;
-	text-decoration:none; 
-	color: #E9CFEC;
-	font-size: 28px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-style: bold;
-}*/
-/*.navbar-nav > li:first-child { 
-	text-align: left; 
-}  alligns first element to the left border 
-
-.navbar-nav > li:last-child { 
-	text-align: right; 
-} /* similar for right border */
-
-/*navbar-nav > li:first-child > a, .navbar-nav > li:last-child > a { 
-	padding: 0; 
-}*/
-/*.navbar-nav { 
-	display: table;
-	 width: 100%; 
-	 margin: 0; 
-}
-.navbar-nav > li { 
-	display: table-cell; 
-	text-align: center; 
-	float: none;
-}
-*/
 
 .highlight {
 	color: #737CA1;
 	font-weight: bold;
 }
-
-/*.navbar-brand h1 {
-	padding-bottom: 40px;
-	font-style: bold;
-}*/
-
 
 .home {
 	width: 100%;
@@ -175,16 +70,6 @@ pre code xmp {
 	font-family: "Courier 10 Pitch", Courier, monospace;
 }
 
-/*#aboutme {
-	width: 100%;
-padding: 10%;
-text-align:center;
-background-color: white;
-
-
-}*/
-
-
 h2 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -195,6 +80,12 @@ p {
 	font-family: 'Raleway', sans-serif;
 }
 
+h5 { 
+
+	font-size: 20px;
+
+ }
+
 .skill-bar {
     background: #EBDDE2;
     display: table;
@@ -202,7 +93,7 @@ p {
     width: 32%;
     margin: 10px -2px 20px -2px;
     position: relative;
-    left: 30%;
+    left: 50%;
 }
 
 .skill-bar .skill-rate-on {
@@ -215,21 +106,14 @@ p {
     border-right: 2px solid #EBDDE2;
 }
 
-
-/*h5 {
-position: relative;
-left: 25%;
-}*/
-
 footer {
-text-align: center;
-background-color: #EBDDE2 ;
+	text-align: center;
+	background-color: #EBDDE2 ;
 }
 
 .icon {
 	padding: 5%;
 } 
-
 
 
 @media only screen and (max-width: 900px) {
@@ -252,5 +136,4 @@ background-color: #EBDDE2 ;
 		font-size:150%;
 	}
 }
-
 
