@@ -5,13 +5,15 @@
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <!-- Import my custom index stylesheet -->
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--google font-->
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel="stylesheet" type='text/css'>
 
   <title> Lauren's CV </title>
 
@@ -135,16 +137,20 @@
 
 
   <!--Section 2-->
+  <!--<h2> Projects</h2>
+  <div class="my-slider">
+    <ul>
+      <li><img class="project1" src="img/demo.jpeg" alt="demo"></li>
+      <li>Another slide</li>
+      <li>My last slide</li>
+    </ul>
+  </div>-->
   <section class="container">
-    <div class="row">
-      <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="img/weconverge.jpg"></a>
-            <a class="carousel-item" href="#two!"><img src="./Project2.jpg"></a>
-            <a class="carousel-item" href="#three!"><img src="./project3.jpg"></a>
-      </div>
+    <div class="images">
+      <img src="img/placeit.jpg">
+      <img src="img/placeit.jpg">
     </div>
   </section>
-
   <!--End of section 2-->
 
   <!--Section 3-->
@@ -165,11 +171,7 @@
               <div class="input-field col m6 s12">
                 <input id="company" type="text" class="validate">
                 <label for="company">Your company</label>
-              </div>
-              <div class="input-field col m6 s12">
-                <input id="company" type="text" class="validate">
-                <label for="company">Your company</label>
-              </div>
+              </div> 
               <div class="input-field col s12">
                 <textarea id="message" class="materialize-textarea"></textarea>
                 <label for="message">Your Message</label>
@@ -187,23 +189,25 @@
   <!-- beginning of footer-->
   <footer>
     <a href="https://github.com/lcostello">
-      <img class="icon" src="GitHub.png" alt="Github">
+      <img class="icon" src="img/GitHub.png" alt="Github">
     </a>
     <a href="https://twitter.com/lcostello89?lang=en">
-      <img class="icon" src="Twitter.png" alt="Twitter">
+      <img class="icon" src="img/Twitter.png" alt="Twitter">
     </a>
     <a href="https://uk.linkedin.com/in/lauren-costello-875101103">
-      <img class="icon" src="LinkedIn.png" alt="LinkedIn">
+      <img class="icon" src="img/LinkedIn.png" alt="LinkedIn">
     </a>
     <a href="https://medium.com/@llhcostello">
-      <img class="icon" src="Medium.png" alt="Medium">
+      <img class="icon" src="img/Medium.png" alt="Medium">
     </a>
   </footer>
   <!--end of footer-->
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="materialize/js/materialize.js"></script>
-    <script src="index.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/index.js"></script>
+
   </body>
 
 </html>
